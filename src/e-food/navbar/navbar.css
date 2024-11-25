@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
+    
+    }
+body{
+   
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230618/pngtree-illustration-of-a-cartoon-style-phone-with-food-and-order-button-image_3639505.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.nav_bar{
+    position: sticky;
+    top: 0px;
+}
+.name{
+    margin-right:380px;
+}
+.user{
+    display: flex;
+    font-size: 18px;
+    margin-left:10px;
+}
+.user span{
+    font-size: 19px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    border: black 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.user p{
+    font-size: 18px;
+    margin-left: 15px;
+    font-weight: 600;
+    
+}
+.nav_container{
+    display: flex;
+    height: 60px;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: silver;
+    color: black;
+}
+.logopic{
+    width: 60px;
+    height: 50px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.nav_menu{
+    width: 250px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    color:black;
+}
+.logo{
+    width: 200px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.logopic{
+    font-size: 28px;
+}
+.nav_left{
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav_menu{
+    gap: 35px;
+    align-items: center;
+    color:black;
+}
+.nav_menu li{
+    width: 70px;
+    border-radius: 6px;
+    text-align: center;
+    align-items: center;
+    color: black;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav_left hr{
+    border: none;
+    width: 80%;
+    height: 2.5px;
+    margin: 8px;
+    border-radius: 10px;
+    background-color: black;
+}
+.name{
+    color: black;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.right_nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left:200px;
+    justify-content: space-evenly;
+    color: black;
+    font-size: 20px;
+}
+.login_cart{
+    width: 130px;
+    outline: none;
+    border: none;
+    color: black;
+    height: 28px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-right: 45px;
+    text-decoration: none;
+}
+.login_cart:active{
+    background-color: black;
+}
+.items{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: black;
+    background-color: black;
+    margin-bottom: 55px;
+
+}
+.para{
+    
+    height:30px;
+    text-align: center;
+    color:white;
+    }
+.para h1{
+    margin-top: 0%;
+}
+@media (max-width: 768px) {
+    .nav_container {
+        flex-direction: row; /* Stack elements vertically */
+        align-items: center; /* Center items */
+        height: auto; /* Allow height to adjust */
+    }
+
+    .name {
+        margin-right: 0; /* Remove margin */
+        text-align: center; /* Center text */
+        font-size: 20px; /* Adjust font size */
+    }
+
+    .user {
+        flex-direction: row; /* Stack user info vertically */
+        align-items: center; /* Center items */
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .nav_menu {
+        flex-direction: row; /* Stack menu items */
+        margin-left: 0; /* Remove left margin */
+        gap: 10px; /* Reduce gap between items */
+        padding: 10px 0; /* Add padding */
+    }
+
+    .nav_menu li {
+        width: auto; /* Allow items to adjust */
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .right_nav {
+        margin-left: 0; /* Remove left margin */
+        justify-content: center; /* Center items */
+        gap: 5px; /* Reduce gap */
+    }
+
+    .login_cart {
+        width: 100%; /* Make button full width */
+        margin: 10px 0; /* Add vertical margin */
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .logopic {
+        width: 50px; /* Smaller logo for mobile */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .items {
+        width: 10px; /* Smaller items icon */
+        height: 10px; /* Smaller items icon */
+    }
+
+    .para {
+        font-size: 16px; /* Adjust paragraph font size */
+    }
+}

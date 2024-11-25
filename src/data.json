@@ -1,0 +1,22 @@
+{
+  "datas": [
+    {
+      "id": "4f14",
+      "name": "karthi",
+      "email": "ganesanganesan.r@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "5c30",
+      "name": "jai",
+      "email": "jayachithrag@gmail.com",
+      "password": "pravjai"
+    },
+    {
+      "id": "334d",
+      "name": "karthika",
+      "email": "gkarthika177@gmail.com",
+      "password": "12345"
+    }
+  ]
+}
