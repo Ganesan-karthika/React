@@ -1,0 +1,57 @@
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color:black;
+  }
+  
+  .about-us h1 {
+    text-align: center;
+    color:blue;/* Tasty orange color */
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color:blue; /* A complementary color */
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  @media (max-width: 600px) {
+    .about-us {
+      padding: 10px;
+    }
+  
+    .about-us h1 {
+      font-size: 24px; /* Adjust heading size */
+    }
+  
+    h2 {
+      font-size: 20px; /* Adjust subheading size */
+    }
+  
+    p {
+      font-size: 14px; /* Adjust paragraph size */
+    }
+  
+    ul {
+      padding-left: 10px; /* Adjust padding */
+    }
+  
+    li {
+      font-size: 14px; /* Adjust list item size */
+    }
+  }
+  
